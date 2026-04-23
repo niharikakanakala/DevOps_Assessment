@@ -25,5 +25,5 @@ jobs:
           context: .
           push: true
           tags: |
-            niharika13/niha_test:${{ github.ref_name }}-latest
-            niharika13/niha_test:${{ github.ref_name }}-${{ github.sha }}
+            niharika13/niharika:${{ github.ref_name }}-latest
+            niharika13/niharika:${{ github.ref_name }}-${{ github.sha }}
